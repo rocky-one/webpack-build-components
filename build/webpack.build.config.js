@@ -91,7 +91,7 @@ const baseConfig = {
     }),
     new MiniCssExtractPlugin({
       filename: (pathData) => {
-        return `${pathData.chunk.name}/css/index.css`
+        return `${pathData.chunk.name}/style/index.css`
       }
     })
   ]
